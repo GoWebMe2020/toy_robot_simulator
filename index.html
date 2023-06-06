@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/15ed7b8e2c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Toy Robot</title>
+  </head>
+  <body>
+
+    <header class="toy-robot-header">
+      <h1>
+        Toy Robot Tech Test
+      </h1>
+    </header>
+
+    <section class="toy-robot-controls">
+      <div class="place">
+        <div>
+          <div>
+            <label for="x">X:</label>
+            <select name="x" id="x">
+              <option value="a">A</option>
+              <option value="b">B</option>
+              <option value="c">C</option>
+              <option value="d">D</option>
+              <option value="e">E</option>
+            </select>
+          </div>
+          <div>
+            <label for="y">Y:</label>
+            <select name="y" id="y">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div>
+            <label for="direction">Direction:</label>
+            <select name="direction" id="direction">
+              <option value="north">North</option>
+              <option value="east">East</option>
+              <option value="south">South</option>
+              <option value="west">West</option>
+            </select>
+          </div>
+        </div>
+        <button>Place Toy Robot</button>
+      </div>
+      <div class="directions">
+        <button><i class="fas fa-arrow-left"></i></button>
+        <button><i class="fas fa-arrow-up"></i></button>
+        <button><i class="fas fa-arrow-right"></i></button>
+      </div>
+      <div class="report">
+        <p id="report"></p>
+        <button>Report Location</button>
+      </div>
+    </section>
+
+    <section class="table">
+      <div class="row">
+        <p>E</p>
+        <div class="box" data-value="e1"></div>
+        <div class="box" data-value="e2"></div>
+        <div class="box" data-value="e3"></div>
+        <div class="box" data-value="e4"></div>
+        <div class="box" data-value="e5"></div>
+      </div>
+      <div class="row">
+        <p>D</p>
+        <div class="box" data-value="d1"></div>
+        <div class="box" data-value="d2"></div>
+        <div class="box" data-value="d3"></div>
+        <div class="box" data-value="d4"></div>
+        <div class="box" data-value="d5"></div>
+      </div>
+      <div class="row">
+        <p>C</p>
+        <div class="box" data-value="c1"></div>
+        <div class="box" data-value="c2"></div>
+        <div class="box" data-value="c3"></div>
+        <div class="box" data-value="c4"></div>
+        <div class="box" data-value="c5"></div>
+      </div>
+      <div class="row">
+        <p>B</p>
+        <div class="box" data-value="b1"></div>
+        <div class="box" data-value="b2"></div>
+        <div class="box" data-value="b3"></div>
+        <div class="box" data-value="b4"></div>
+        <div class="box" data-value="b5"></div>
+      </div>
+      <div class="row">
+        <p>A</p>
+        <div class="box" data-value="a1"><i class="fas fa-robot"></i></div>
+        <div class="box" data-value="a2"></div>
+        <div class="box" data-value="a3"></div>
+        <div class="box" data-value="a4"></div>
+        <div class="box" data-value="a5"></div>
+      </div>
+      <div class="numbers">
+        <p>1</p>
+        <p>2</p>
+        <p>3</p>
+        <p>4</p>
+        <p>5</p>
+      </div>
+    </section>
+
+  </body>
+</html>
