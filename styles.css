@@ -100,3 +100,15 @@
   margin: auto;
   padding-left: 20px;
 }
+
+.face-east {
+  transform: rotate(90deg);
+}
+
+.face-south {
+  transform: rotate(180deg);
+}
+
+.face-west {
+  transform: rotate(270deg);
+}
