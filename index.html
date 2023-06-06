@@ -52,9 +52,9 @@
         <button onclick="placeRobot()">Place Toy Robot</button>
       </div>
       <div class="directions">
-        <button><i class="fas fa-arrow-left"></i></button>
+        <button onclick="turnLeft()"><i class="fas fa-arrow-left"></i></button>
         <button onclick="goForward()"><i class="fas fa-arrow-up"></i></button>
-        <button><i class="fas fa-arrow-right"></i></button>
+        <button onclick="turnRight()"><i class="fas fa-arrow-right"></i></button>
       </div>
       <div class="report">
         <p id="report"></p>
@@ -97,7 +97,7 @@
       </div>
       <div class="row">
         <p>A</p>
-        <div class="box" data-value="a1"><i id="robot" class="fas fa-robot" data-direction="north"></i></div>
+        <div class="box" data-value="a1"><i id="robot" class="fas fa-robot face-north" data-direction="north"></i></div>
         <div class="box" data-value="a2"></div>
         <div class="box" data-value="a3"></div>
         <div class="box" data-value="a4"></div>
